@@ -34,7 +34,7 @@
     </div>
 
     <div class="publication-content">
-      <div class="publication-title">
+     <div class="publication-title">
 
         {{ if eq .Params.affiliation "washu" }}
           <img src="{{ "WashUShield.svg" | relURL }}" class="entry-logo">
@@ -44,7 +44,7 @@
           <img src="{{ "WFLogo.svg" | relURL }}" class="entry-logo">
         {{ end }}
 
-        {{ .Title | safeHTML }}
+        <span class="publication-title-text">{{ .Title | safeHTML }}</span>
 
       </div>
 

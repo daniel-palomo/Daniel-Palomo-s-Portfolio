@@ -131,3 +131,13 @@ select {
   line-height: 1.5;
   color: #555;
 }
+
+.publication-title {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.publication-title-text {
+  display: inline;
+}
