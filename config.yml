@@ -1,5 +1,5 @@
-baseURL: "https://pascalmichaillat.org/hugo-website/" 
-title: Moritz-Maria von Igelfeld
+baseURL: "http://localhost:1313/"
+title: Daniel Roberto Palomo
 theme: PaperMod
 
 enableInlineShortcodes: true
@@ -11,28 +11,29 @@ taxonomies:
     tag: tags
 
 menu:
-    main:
-        - name: Books
-          url: books/
-          weight: 5 
-        - name: Papers
-          url: papers/
-          weight: 2
-        - name: Courses
-          url: courses/
-          weight: 3
-        - name: Data
-          url: data/
-          weight: 4 
-        - name: Blog
-          url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
-          weight: 6
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 1
+    - identifier: manuscripts
+      name: Manuscripts
+      url: /manuscripts/
+      weight: 2
+    - identifier: posters
+      name: Posters & Abstracts
+      url: /posters/
+      weight: 3
+    - identifier: projects
+      name: Projects
+      url: /projects/
+      weight: 4
+
 
 params:
-    description: "This website hosts Moritz-Maria von Igelfeld's research papers, books, course materials, data, curriculum vitae, and contact information."
-    author: Moritz-Maria von Igelfeld
-    # googleAnalyticsID: "G-XXXXX"
-    DateFormat: "January 2006"
+    description: "Daniel Palomo's portfolio website"
+    author: Daniel Roberto Palomo
+    DateFormat: "June 2026"
     defaultTheme: light
     hideFooter: false
     disableThemeToggle: true
@@ -44,7 +45,7 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["books","courses","papers","data"]
+    MainSections: ["manuscripts", "posters", "projects"]
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true
@@ -54,50 +55,26 @@ params:
     math: true
     profileMode:
           enabled: true
-          title: Professor Dr von Igelfeld
-          subtitle: "I am a Professor in the Institute of Romance Philology at the University of Regensburg, Germany. My research focuses on Portuguese irregular verbs. I was a doctoral student of Professor Dr Dieter Vogelsang in Munich, and later a second assistant of Professor Walter Schoeffler-Henschell at the University of Wiesbaden."
-          imageUrl: "picture.jpeg"
+          disableHeaderMenu: false 
+          title: Daniel Roberto Palomo
+          subtitle: "I am Daniel Palomo, an undergraduate researcher at Washington University in St. Louis. I am majoring in Biomedical Engineering, and am interested in how ML can be utilized within imaging technologies for analysis."
+          imageUrl: "DanielPalomo_Headshot.jpg"
           imageWidth: 160
           imageHeight: 160
-          buttons:
-            - name: Papers
-              url: papers/
-            - name: Data
-              url: data/
-            - name: Books
-              url: books/
-            - name: Courses
-              url: courses/
-            - name: Tags
-              url: tags/
-            - name: Archive
-              url: archive/
-            - name: Blog
-              url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+          
 
     socialIcons:
         - name: CV
-          url: cv.pdf
+          url: Palomo_Daniel_CV.pdf
+        - name: LinkedIn
+          url: https://www.linkedin.com/in/daniel-r-palomo/   
         - name: Email
-          url: mailto:user@gmail.com
-        - name: Zoom
-          url: https://www.zoom.us/my/user
-        - name: Location
-          url: location/
-        - name: Office Hours
-          url: officehours/
+          url: mailto:d.palomo@wustl.edu
         - name: Google Scholar
-          url: https://scholar.google.com/citations?user=user
+          url: https://scholar.google.com/citations?user=q6IhUbcAAAAJ&hl=en
         - name: GitHub
-          url: https://github.com/user
-        - name: YouTube
-          url: https://www.youtube.com/@user
-        - name: Substack
-          url: https://user.substack.com
-        - name: Twitter
-          url: https://x.com/user
-        - name: Bluesky
-          url: https://bsky.app/profile/user.bsky.social
+          url: https://github.com/daniel-palomo
+
 
     assets:
         disableScrollBarStyle: true
@@ -105,8 +82,8 @@ params:
         hiddenInList: false
         hiddenInSingle: true
     label:
-      text: "Moritz-Maria von Igelfeld"
-      icon: favicon.ico
+      text: "Daniel Palomo"
+      #icon: favicon.ico
       iconHeight: 18
 
 markup:
