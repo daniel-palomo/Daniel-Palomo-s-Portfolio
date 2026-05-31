@@ -62,16 +62,16 @@
 
       {{- with .Params.poster }}
       <div class="publication-links">
-        <a href="{{ . }}" target="_blank">Poster PDF</a>
+        <a href="{{ . | relURL }}" target="_blank">Poster PDF</a>
       </div>
       {{- end }}
 
       {{- with .Params.project }}
       <div class="publication-links">
-        <a href="{{ . }}" target="_blank">Project Report</a>
+        <a href="{{ . | relURL }}" target="_blank">Project Report</a>
       </div>
       {{- end }}
-      
+
       {{- with .Params.preprint }}
       <div class="publication-links">
         <a href="{{ . }}" target="_blank">Preprint</a>

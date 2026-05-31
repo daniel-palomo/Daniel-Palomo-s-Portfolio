@@ -6,5 +6,5 @@ authors: "**Daniel Palomo**, Quentin A. Meslier, Naomi Dirckx, Erica L. Scheller
 journal: "Washington University Undergraduate Research Symposium, Spring 2026"
 affiliation: washu
 
-poster: "/posters/Role of Slc13a5 in osteoblast-mediated bone remodeling and marrow fat regulation.pdf"
+poster: "posters/Role of Slc13a5 in osteoblast-mediated bone remodeling and marrow fat regulation.pdf"
 ---

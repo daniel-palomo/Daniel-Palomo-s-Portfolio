@@ -3,7 +3,7 @@
 title: "Role of <i>Slc13a5</i> in osteoblast-mediated bone remodeling and marrow fat regulation"
 date: 2026-04-30
 authors: "**Daniel Palomo** (advisor: Dr. Erica Scheller)"
-project: "/projects/RFC-Sem2.pdf"
+project: "projects/RFC-Sem2.pdf"
 affiliation: washu
 
 ---

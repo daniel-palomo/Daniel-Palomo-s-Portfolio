@@ -2,7 +2,7 @@
 title: "Quantitative MicroCT Analysis of Taurine and Leptin Effects on Bone Remodeling"
 date: 2025-12-17
 authors: "**Daniel Palomo** (advisor: Dr. Erica Scheller)"
-project: "/projects/RFC-Sem1.pdf"
+project: "projects/RFC-Sem1.pdf"
 affiliation: washu
 ---
 
