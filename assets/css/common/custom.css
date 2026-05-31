@@ -124,3 +124,10 @@ select {
 .profile_inner p {
     font-family: Georgia, "Times New Roman", serif;
 }
+
+.publication-description {
+  margin-top: 10px;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #555;
+}

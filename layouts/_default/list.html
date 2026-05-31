@@ -60,6 +60,12 @@
       </div>
       {{- end }}
 
+      {{- if .Summary }}
+      <div class="publication-description">
+        {{ .Summary | plainify }}
+      </div>
+      {{- end }}
+
       {{- with .Params.poster }}
       <div class="publication-links">
         <a href="{{ . | relURL }}" target="_blank">Poster PDF</a>
