@@ -13,10 +13,10 @@
 <div class="affiliation-note">
   <span>Affiliations:</span>
 
-  <img src="/WashUShield.svg" alt="WashU" class="mini-logo">
+  <img src="{{ "WashUShield.svg" | relURL }}" alt="WashU" class="mini-logo">
   <span>Washington University in St. Louis;</span>
 
-  <img src="/WFLogo.svg" alt="Wake Forest" class="mini-logo">
+  <img src="{{ "WFLogo.svg" | relURL }}" alt="Wake Forest" class="mini-logo">
   <span>Wake Forest University School of Medicine</span>
 </div>
 
@@ -37,11 +37,11 @@
       <div class="publication-title">
 
           {{ if eq .Params.affiliation "washu" }}
-            <img src="/WashUShield.svg" class="entry-logo">
+            <img src="{{ "WashUShield.svg" | relURL }}" class="entry-logo">
           {{ end }}
 
           {{ if eq .Params.affiliation "wake" }}
-            <img src="/WFLogo.svg" class="entry-logo">
+            <img src="{{ "WFLogo.svg" | relURL }}" class="entry-logo">
           {{ end }}
 
     <a href="{{ .Permalink }}">{{ .Title | safeHTML }}</a>
