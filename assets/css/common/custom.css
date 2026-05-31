@@ -39,13 +39,6 @@
   display: block;
 }
 
-.entry-logo {
-  height: 24px;
-  width: 24px;
-  object-fit: contain;
-  margin-top: 2px;
-}
-
 .publication-authors {
   margin-top: 10px;
   font-size: 16px;
