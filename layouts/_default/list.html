@@ -36,17 +36,17 @@
     <div class="publication-content">
       <div class="publication-title">
 
-          {{ if eq .Params.affiliation "washu" }}
-            <img src="{{ "WashUShield.svg" | relURL }}" class="entry-logo">
-          {{ end }}
+        {{ if eq .Params.affiliation "washu" }}
+          <img src="{{ "WashUShield.svg" | relURL }}" class="entry-logo">
+        {{ end }}
 
-          {{ if eq .Params.affiliation "wake" }}
-            <img src="{{ "WFLogo.svg" | relURL }}" class="entry-logo">
-          {{ end }}
+        {{ if eq .Params.affiliation "wake" }}
+          <img src="{{ "WFLogo.svg" | relURL }}" class="entry-logo">
+        {{ end }}
 
-    <a href="{{ .Permalink }}">{{ .Title | safeHTML }}</a>
+        {{ .Title | safeHTML }}
 
-</div>
+      </div>
 
       {{- with .Params.authors }}
       <div class="publication-authors">
