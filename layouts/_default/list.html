@@ -34,7 +34,7 @@
     </div>
 
     <div class="publication-content">
-     <div class="publication-title">
+      <div class="publication-title">
 
         {{ if eq .Params.affiliation "washu" }}
           <img src="{{ "WashUShield.svg" | relURL }}" class="entry-logo">
@@ -75,6 +75,12 @@
       {{- with .Params.project }}
       <div class="publication-links">
         <a href="{{ . | relURL }}" target="_blank">Project Report</a>
+      </div>
+      {{- end }}
+
+      {{- with .Params.preprint }}
+      <div class="publication-links">
+        <a href="{{ . }}" target="_blank">Preprint</a>
       </div>
       {{- end }}
 
