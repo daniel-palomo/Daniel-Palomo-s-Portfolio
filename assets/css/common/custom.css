@@ -122,3 +122,10 @@ select {
 .profile_inner p {
   font-family: Georgia, "Times New Roman", serif;
 }
+
+.entry-logo {
+  height: 32px !important;
+  width: 32px !important;
+  object-fit: contain;
+  margin-top: 0;
+}
